@@ -5,7 +5,7 @@ const app = express()
 app.get('/', (req, res)=>{
     res.send('Hello from GET NODE API')
 })
-
+// new 
 app.listen(3000, ()=> {
     console.log('Node API runing on port 3000')
     
