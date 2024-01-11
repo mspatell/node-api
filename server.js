@@ -21,7 +21,7 @@ mongoose.connect(MONGO_URL)
 .then(()=>{
     console.log("Connected to MongoDB")
     app.listen(PORT, ()=> {
-        console.log('Node API runing on ${PORT}')
+        console.log(`Node API running on ${PORT}`);
     })
 }).catch((e)=>{
     console.log(e)

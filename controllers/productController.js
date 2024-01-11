@@ -61,6 +61,6 @@ const deleteProduct = async(req, res) =>{
     }
 }
 
-model.exports = {
+module.exports = {
     getProducts, getProduct, addProduct, updateProduct, deleteProduct, 
 }
